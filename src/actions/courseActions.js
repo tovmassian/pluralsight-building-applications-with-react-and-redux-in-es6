@@ -1,6 +1,6 @@
 import * as types from '../actions/actionTypes';
 import mockCourseApi from '../api/mockCourseApi';
-import {ajaxCallError, beginAjaxCall} from './ajaxStatusActions';
+import { ajaxCallError, beginAjaxCall } from './ajaxStatusActions';
 
 export function loadCoursesSuccess(courses) {
     return { type: types.LOAD_COURSES_SUCCESS, courses };
